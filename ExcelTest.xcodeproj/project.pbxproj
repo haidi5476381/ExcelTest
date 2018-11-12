@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091AAD9A21957D7800DFF024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAD9921957D7800DFF024 /* AppDelegate.m */; };
+		091AAD9D21957D7800DFF024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAD9C21957D7800DFF024 /* ViewController.m */; };
+		091AADA021957D7800DFF024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091AAD9E21957D7800DFF024 /* Main.storyboard */; };
+		091AADA221957D7C00DFF024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091AADA121957D7C00DFF024 /* Assets.xcassets */; };
+		091AADA521957D7C00DFF024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091AADA321957D7C00DFF024 /* LaunchScreen.storyboard */; };
+		091AADA821957D7C00DFF024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADA721957D7C00DFF024 /* main.m */; };
+		091AAE1A21957D9700DFF024 /* main11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 091AADB221957D9700DFF024 /* main11.cpp */; };
+		091AAE1B21957D9700DFF024 /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 091AADB421957D9700DFF024 /* XlsReader.cpp */; };
+		091AAE1C21957D9700DFF024 /* DHxlsReaderIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADBF21957D9700DFF024 /* DHxlsReaderIOS.m */; };
+		091AAE1D21957D9700DFF024 /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADC321957D9700DFF024 /* DHcell.m */; };
+		091AAE1E21957D9700DFF024 /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADC621957D9700DFF024 /* xls.c */; };
+		091AAE1F21957D9700DFF024 /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADC721957D9700DFF024 /* xlstool.c */; };
+		091AAE2021957D9700DFF024 /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADC821957D9700DFF024 /* ole.c */; };
+		091AAE2121957D9700DFF024 /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADC921957D9700DFF024 /* xls2csv.c */; };
+		091AAE2221957D9700DFF024 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADCA21957D9700DFF024 /* getopt.c */; };
+		091AAE2321957D9700DFF024 /* LAWExcelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADCB21957D9700DFF024 /* LAWExcelTool.m */; };
+		091AAE2421957D9700DFF024 /* ZXLSXParsers注解.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADCD21957D9700DFF024 /* ZXLSXParsers注解.m */; };
+		091AAE2521957D9700DFF024 /* ZSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADD121957D9700DFF024 /* ZSheetParser.m */; };
+		091AAE2621957D9700DFF024 /* ZXLSXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADD221957D9700DFF024 /* ZXLSXParser.m */; };
+		091AAE2721957D9700DFF024 /* ZSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADD521957D9700DFF024 /* ZSheet.m */; };
+		091AAE2821957D9700DFF024 /* ZSheetCol.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADD821957D9700DFF024 /* ZSheetCol.m */; };
+		091AAE2921957D9700DFF024 /* ZContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADDA21957D9700DFF024 /* ZContent.m */; };
+		091AAE2A21957D9700DFF024 /* ZWorkbookParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADDD21957D9700DFF024 /* ZWorkbookParser.m */; };
+		091AAE2B21957D9700DFF024 /* ZBaseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADDE21957D9700DFF024 /* ZBaseParser.m */; };
+		091AAE2C21957D9700DFF024 /* ZContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADE121957D9700DFF024 /* ZContentParser.m */; };
+		091AAE2D21957D9700DFF024 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADE421957D9700DFF024 /* unzip.c */; };
+		091AAE2E21957D9700DFF024 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADE521957D9700DFF024 /* zip.c */; };
+		091AAE2F21957D9700DFF024 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADE621957D9700DFF024 /* ioapi.c */; };
+		091AAE3021957D9700DFF024 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADE721957D9700DFF024 /* mztools.c */; };
+		091AAE3121957D9700DFF024 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AADEF21957D9700DFF024 /* SSZipArchive.m */; };
+		091AAE3221957D9700DFF024 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADF221957D9700DFF024 /* aeskey.c */; };
+		091AAE3321957D9700DFF024 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADF321957D9700DFF024 /* hmac.c */; };
+		091AAE3421957D9700DFF024 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADF621957D9700DFF024 /* aescrypt.c */; };
+		091AAE3521957D9700DFF024 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADF721957D9700DFF024 /* fileenc.c */; };
+		091AAE3621957D9700DFF024 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADFA21957D9700DFF024 /* sha1.c */; };
+		091AAE3721957D9700DFF024 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AADFF21957D9700DFF024 /* prng.c */; };
+		091AAE3821957D9700DFF024 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE0121957D9700DFF024 /* pwd2key.c */; };
+		091AAE3921957D9700DFF024 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE0221957D9700DFF024 /* aestab.c */; };
+		091AAE3A21957D9700DFF024 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE0521957D9700DFF024 /* entropy.c */; };
+		091AAE3B21957D9700DFF024 /* iOSXLSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE0921957D9700DFF024 /* iOSXLSCell.m */; };
+		091AAE3C21957D9700DFF024 /* iOSXLSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE0E21957D9700DFF024 /* iOSXLSReader.m */; };
+		091AAE3D21957D9700DFF024 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE1421957D9700DFF024 /* CSVParser.m */; };
+		091AAE3E21957D9700DFF024 /* QuickExcelReaderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AAE1621957D9700DFF024 /* QuickExcelReaderUtil.m */; };
+		091AAE3F21957D9700DFF024 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 091AAE1921957D9700DFF024 /* Info.plist */; };
+		091AAE4121957E1500DFF024 /* 1.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 091AAE4021957E1500DFF024 /* 1.xlsx */; };
+		091AAE4421957F9300DFF024 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 091AAE4321957F9300DFF024 /* libiconv.2.tbd */; };
+		091AAE4621957F9900DFF024 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 091AAE4521957F9900DFF024 /* libz.tbd */; };
+		091AAE50219599B200DFF024 /* Sheet1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 091AAE4F219599B100DFF024 /* Sheet1.txt */; };
+		091AAE5221959CE400DFF024 /* ub.plist in Resources */ = {isa = PBXBuildFile; fileRef = 091AAE5121959CE400DFF024 /* ub.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091AAD9521957D7800DFF024 /* ExcelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091AAD9821957D7800DFF024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		091AAD9921957D7800DFF024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		091AAD9B21957D7800DFF024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		091AAD9C21957D7800DFF024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		091AAD9F21957D7800DFF024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091AADA121957D7C00DFF024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091AADA421957D7C00DFF024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091AADA621957D7C00DFF024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091AADA721957D7C00DFF024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091AADB221957D9700DFF024 /* main11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main11.cpp; sourceTree = "<group>"; };
+		091AADB321957D9700DFF024 /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		091AADB421957D9700DFF024 /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
+		091AADB521957D9700DFF024 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		091AADB721957D9700DFF024 /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		091AADB821957D9700DFF024 /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		091AADB921957D9700DFF024 /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		091AADBA21957D9700DFF024 /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		091AADBB21957D9700DFF024 /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		091AADBC21957D9700DFF024 /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		091AADBD21957D9700DFF024 /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		091AADBF21957D9700DFF024 /* DHxlsReaderIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReaderIOS.m; sourceTree = "<group>"; };
+		091AADC021957D9700DFF024 /* DHxlsReaderIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHxlsReaderIOS-Prefix.pch"; sourceTree = "<group>"; };
+		091AADC121957D9700DFF024 /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		091AADC221957D9700DFF024 /* DHxlsReaderIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReaderIOS.h; sourceTree = "<group>"; };
+		091AADC321957D9700DFF024 /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
+		091AADC421957D9700DFF024 /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
+		091AADC621957D9700DFF024 /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		091AADC721957D9700DFF024 /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		091AADC821957D9700DFF024 /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		091AADC921957D9700DFF024 /* xls2csv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls2csv.c; sourceTree = "<group>"; };
+		091AADCA21957D9700DFF024 /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		091AADCB21957D9700DFF024 /* LAWExcelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAWExcelTool.m; sourceTree = "<group>"; };
+		091AADCD21957D9700DFF024 /* ZXLSXParsers注解.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXLSXParsers注解.m"; sourceTree = "<group>"; };
+		091AADCF21957D9700DFF024 /* ZBaseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBaseParser.h; sourceTree = "<group>"; };
+		091AADD021957D9700DFF024 /* ZWorkbookParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWorkbookParser.h; sourceTree = "<group>"; };
+		091AADD121957D9700DFF024 /* ZSheetParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetParser.m; sourceTree = "<group>"; };
+		091AADD221957D9700DFF024 /* ZXLSXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSXParser.m; sourceTree = "<group>"; };
+		091AADD321957D9700DFF024 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		091AADD521957D9700DFF024 /* ZSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheet.m; sourceTree = "<group>"; };
+		091AADD621957D9700DFF024 /* ZContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContent.h; sourceTree = "<group>"; };
+		091AADD721957D9700DFF024 /* ZSheetCol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetCol.h; sourceTree = "<group>"; };
+		091AADD821957D9700DFF024 /* ZSheetCol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetCol.m; sourceTree = "<group>"; };
+		091AADD921957D9700DFF024 /* ZPaserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPaserProtocol.h; sourceTree = "<group>"; };
+		091AADDA21957D9700DFF024 /* ZContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContent.m; sourceTree = "<group>"; };
+		091AADDB21957D9700DFF024 /* ZSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheet.h; sourceTree = "<group>"; };
+		091AADDC21957D9700DFF024 /* ZContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContentParser.h; sourceTree = "<group>"; };
+		091AADDD21957D9700DFF024 /* ZWorkbookParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWorkbookParser.m; sourceTree = "<group>"; };
+		091AADDE21957D9700DFF024 /* ZBaseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBaseParser.m; sourceTree = "<group>"; };
+		091AADDF21957D9700DFF024 /* ZSheetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetParser.h; sourceTree = "<group>"; };
+		091AADE021957D9700DFF024 /* ZXLSXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSXParser.h; sourceTree = "<group>"; };
+		091AADE121957D9700DFF024 /* ZContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContentParser.m; sourceTree = "<group>"; };
+		091AADE421957D9700DFF024 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		091AADE521957D9700DFF024 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		091AADE621957D9700DFF024 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		091AADE721957D9700DFF024 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		091AADE821957D9700DFF024 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		091AADE921957D9700DFF024 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		091AADEA21957D9700DFF024 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		091AADEB21957D9700DFF024 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		091AADEC21957D9700DFF024 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		091AADED21957D9700DFF024 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		091AADEE21957D9700DFF024 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		091AADEF21957D9700DFF024 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		091AADF121957D9700DFF024 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		091AADF221957D9700DFF024 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		091AADF321957D9700DFF024 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		091AADF421957D9700DFF024 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		091AADF521957D9700DFF024 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		091AADF621957D9700DFF024 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		091AADF721957D9700DFF024 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		091AADF821957D9700DFF024 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		091AADF921957D9700DFF024 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		091AADFA21957D9700DFF024 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		091AADFB21957D9700DFF024 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		091AADFC21957D9700DFF024 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		091AADFD21957D9700DFF024 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		091AADFE21957D9700DFF024 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		091AADFF21957D9700DFF024 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		091AAE0021957D9700DFF024 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		091AAE0121957D9700DFF024 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		091AAE0221957D9700DFF024 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		091AAE0321957D9700DFF024 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		091AAE0421957D9700DFF024 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		091AAE0521957D9700DFF024 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		091AAE0621957D9700DFF024 /* LAWExcelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAWExcelTool.h; sourceTree = "<group>"; };
+		091AAE0921957D9700DFF024 /* iOSXLSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSXLSCell.m; sourceTree = "<group>"; };
+		091AAE0A21957D9700DFF024 /* iOSXLSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSXLSReader.h; sourceTree = "<group>"; };
+		091AAE0B21957D9700DFF024 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		091AAE0D21957D9700DFF024 /* iOSXLSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSXLSCell.h; sourceTree = "<group>"; };
+		091AAE0E21957D9700DFF024 /* iOSXLSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSXLSReader.m; sourceTree = "<group>"; };
+		091AAE1021957D9700DFF024 /* QuickExcelReaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickExcelReaderUtil.h; sourceTree = "<group>"; };
+		091AAE1121957D9700DFF024 /* QuickExcelKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickExcelKit.h; sourceTree = "<group>"; };
+		091AAE1321957D9700DFF024 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		091AAE1421957D9700DFF024 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		091AAE1521957D9700DFF024 /* QuickExcelKitDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickExcelKitDefine.h; sourceTree = "<group>"; };
+		091AAE1621957D9700DFF024 /* QuickExcelReaderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickExcelReaderUtil.m; sourceTree = "<group>"; };
+		091AAE1821957D9700DFF024 /* QuickExcelKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickExcelKit-Prefix.pch"; sourceTree = "<group>"; };
+		091AAE1921957D9700DFF024 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091AAE4021957E1500DFF024 /* 1.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.xlsx; sourceTree = "<group>"; };
+		091AAE4321957F9300DFF024 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		091AAE4521957F9900DFF024 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		091AAE4F219599B100DFF024 /* Sheet1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sheet1.txt; sourceTree = "<group>"; };
+		091AAE5121959CE400DFF024 /* ub.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ub.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091AAD9221957D7800DFF024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091AAE4621957F9900DFF024 /* libz.tbd in Frameworks */,
+				091AAE4421957F9300DFF024 /* libiconv.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091AAD8C21957D7800DFF024 = {
+			isa = PBXGroup;
+			children = (
+				091AAD9721957D7800DFF024 /* ExcelTest */,
+				091AAD9621957D7800DFF024 /* Products */,
+				091AAE4221957F9300DFF024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		091AAD9621957D7800DFF024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091AAD9521957D7800DFF024 /* ExcelTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091AAD9721957D7800DFF024 /* ExcelTest */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE4F219599B100DFF024 /* Sheet1.txt */,
+				091AAE4021957E1500DFF024 /* 1.xlsx */,
+				091AADAE21957D9700DFF024 /* ExcelParser */,
+				091AAE0821957D9700DFF024 /* iOSlibxls */,
+				091AAE0F21957D9700DFF024 /* QuickExcelKit */,
+				091AAD9821957D7800DFF024 /* AppDelegate.h */,
+				091AAD9921957D7800DFF024 /* AppDelegate.m */,
+				091AAD9B21957D7800DFF024 /* ViewController.h */,
+				091AAD9C21957D7800DFF024 /* ViewController.m */,
+				091AAD9E21957D7800DFF024 /* Main.storyboard */,
+				091AADA121957D7C00DFF024 /* Assets.xcassets */,
+				091AADA321957D7C00DFF024 /* LaunchScreen.storyboard */,
+				091AADA621957D7C00DFF024 /* Info.plist */,
+				091AADA721957D7C00DFF024 /* main.m */,
+				091AAE5121959CE400DFF024 /* ub.plist */,
+			);
+			path = ExcelTest;
+			sourceTree = "<group>";
+		};
+		091AADAE21957D9700DFF024 /* ExcelParser */ = {
+			isa = PBXGroup;
+			children = (
+				091AADAF21957D9700DFF024 /* XLS */,
+				091AADCB21957D9700DFF024 /* LAWExcelTool.m */,
+				091AADCC21957D9700DFF024 /* XLSX */,
+				091AAE0621957D9700DFF024 /* LAWExcelTool.h */,
+				091AAE0721957D9700DFF024 /* CSV */,
+			);
+			path = ExcelParser;
+			sourceTree = "<group>";
+		};
+		091AADAF21957D9700DFF024 /* XLS */ = {
+			isa = PBXGroup;
+			children = (
+				091AADB021957D9700DFF024 /* DHxlsReader */,
+			);
+			path = XLS;
+			sourceTree = "<group>";
+		};
+		091AADB021957D9700DFF024 /* DHxlsReader */ = {
+			isa = PBXGroup;
+			children = (
+				091AADB121957D9700DFF024 /* cplusplus */,
+				091AADB521957D9700DFF024 /* config.h */,
+				091AADB621957D9700DFF024 /* libxls */,
+				091AADBE21957D9700DFF024 /* DHxlsReaderIOS */,
+				091AADC521957D9700DFF024 /* src */,
+			);
+			path = DHxlsReader;
+			sourceTree = "<group>";
+		};
+		091AADB121957D9700DFF024 /* cplusplus */ = {
+			isa = PBXGroup;
+			children = (
+				091AADB221957D9700DFF024 /* main11.cpp */,
+				091AADB321957D9700DFF024 /* XlsReader.h */,
+				091AADB421957D9700DFF024 /* XlsReader.cpp */,
+			);
+			path = cplusplus;
+			sourceTree = "<group>";
+		};
+		091AADB621957D9700DFF024 /* libxls */ = {
+			isa = PBXGroup;
+			children = (
+				091AADB721957D9700DFF024 /* xlstypes.h */,
+				091AADB821957D9700DFF024 /* xlsstruct.h */,
+				091AADB921957D9700DFF024 /* brdb.c.h */,
+				091AADBA21957D9700DFF024 /* xlstool.h */,
+				091AADBB21957D9700DFF024 /* xls.h */,
+				091AADBC21957D9700DFF024 /* ole.h */,
+				091AADBD21957D9700DFF024 /* brdb.h */,
+			);
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		091AADBE21957D9700DFF024 /* DHxlsReaderIOS */ = {
+			isa = PBXGroup;
+			children = (
+				091AADBF21957D9700DFF024 /* DHxlsReaderIOS.m */,
+				091AADC021957D9700DFF024 /* DHxlsReaderIOS-Prefix.pch */,
+				091AADC121957D9700DFF024 /* DHcell.h */,
+				091AADC221957D9700DFF024 /* DHxlsReaderIOS.h */,
+				091AADC321957D9700DFF024 /* DHcell.m */,
+				091AADC421957D9700DFF024 /* DHcell-Private.h */,
+			);
+			path = DHxlsReaderIOS;
+			sourceTree = "<group>";
+		};
+		091AADC521957D9700DFF024 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				091AADC621957D9700DFF024 /* xls.c */,
+				091AADC721957D9700DFF024 /* xlstool.c */,
+				091AADC821957D9700DFF024 /* ole.c */,
+				091AADC921957D9700DFF024 /* xls2csv.c */,
+				091AADCA21957D9700DFF024 /* getopt.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		091AADCC21957D9700DFF024 /* XLSX */ = {
+			isa = PBXGroup;
+			children = (
+				091AADCD21957D9700DFF024 /* ZXLSXParsers注解.m */,
+				091AADCE21957D9700DFF024 /* xmlParser */,
+				091AADE221957D9700DFF024 /* SSZipArchive */,
+			);
+			path = XLSX;
+			sourceTree = "<group>";
+		};
+		091AADCE21957D9700DFF024 /* xmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				091AADCF21957D9700DFF024 /* ZBaseParser.h */,
+				091AADD021957D9700DFF024 /* ZWorkbookParser.h */,
+				091AADD121957D9700DFF024 /* ZSheetParser.m */,
+				091AADD221957D9700DFF024 /* ZXLSXParser.m */,
+				091AADD321957D9700DFF024 /* config.h */,
+				091AADD421957D9700DFF024 /* models */,
+				091AADDC21957D9700DFF024 /* ZContentParser.h */,
+				091AADDD21957D9700DFF024 /* ZWorkbookParser.m */,
+				091AADDE21957D9700DFF024 /* ZBaseParser.m */,
+				091AADDF21957D9700DFF024 /* ZSheetParser.h */,
+				091AADE021957D9700DFF024 /* ZXLSXParser.h */,
+				091AADE121957D9700DFF024 /* ZContentParser.m */,
+			);
+			path = xmlParser;
+			sourceTree = "<group>";
+		};
+		091AADD421957D9700DFF024 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				091AADD521957D9700DFF024 /* ZSheet.m */,
+				091AADD621957D9700DFF024 /* ZContent.h */,
+				091AADD721957D9700DFF024 /* ZSheetCol.h */,
+				091AADD821957D9700DFF024 /* ZSheetCol.m */,
+				091AADD921957D9700DFF024 /* ZPaserProtocol.h */,
+				091AADDA21957D9700DFF024 /* ZContent.m */,
+				091AADDB21957D9700DFF024 /* ZSheet.h */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		091AADE221957D9700DFF024 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				091AADE321957D9700DFF024 /* minizip */,
+				091AADED21957D9700DFF024 /* SSZipArchive.h */,
+				091AADEE21957D9700DFF024 /* Common.h */,
+				091AADEF21957D9700DFF024 /* SSZipArchive.m */,
+				091AADF021957D9700DFF024 /* aes */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		091AADE321957D9700DFF024 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				091AADE421957D9700DFF024 /* unzip.c */,
+				091AADE521957D9700DFF024 /* zip.c */,
+				091AADE621957D9700DFF024 /* ioapi.c */,
+				091AADE721957D9700DFF024 /* mztools.c */,
+				091AADE821957D9700DFF024 /* crypt.h */,
+				091AADE921957D9700DFF024 /* zip.h */,
+				091AADEA21957D9700DFF024 /* unzip.h */,
+				091AADEB21957D9700DFF024 /* mztools.h */,
+				091AADEC21957D9700DFF024 /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		091AADF021957D9700DFF024 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				091AADF121957D9700DFF024 /* prng.h */,
+				091AADF221957D9700DFF024 /* aeskey.c */,
+				091AADF321957D9700DFF024 /* hmac.c */,
+				091AADF421957D9700DFF024 /* aestab.h */,
+				091AADF521957D9700DFF024 /* pwd2key.h */,
+				091AADF621957D9700DFF024 /* aescrypt.c */,
+				091AADF721957D9700DFF024 /* fileenc.c */,
+				091AADF821957D9700DFF024 /* aesopt.h */,
+				091AADF921957D9700DFF024 /* aes_via_ace.h */,
+				091AADFA21957D9700DFF024 /* sha1.c */,
+				091AADFB21957D9700DFF024 /* brg_types.h */,
+				091AADFC21957D9700DFF024 /* entropy.h */,
+				091AADFD21957D9700DFF024 /* hmac.h */,
+				091AADFE21957D9700DFF024 /* brg_endian.h */,
+				091AADFF21957D9700DFF024 /* prng.c */,
+				091AAE0021957D9700DFF024 /* aes.h */,
+				091AAE0121957D9700DFF024 /* pwd2key.c */,
+				091AAE0221957D9700DFF024 /* aestab.c */,
+				091AAE0321957D9700DFF024 /* sha1.h */,
+				091AAE0421957D9700DFF024 /* fileenc.h */,
+				091AAE0521957D9700DFF024 /* entropy.c */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		091AAE0721957D9700DFF024 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		091AAE0821957D9700DFF024 /* iOSlibxls */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE0921957D9700DFF024 /* iOSXLSCell.m */,
+				091AAE0A21957D9700DFF024 /* iOSXLSReader.h */,
+				091AAE0B21957D9700DFF024 /* config.h */,
+				091AAE0C21957D9700DFF024 /* libxls */,
+				091AAE0D21957D9700DFF024 /* iOSXLSCell.h */,
+				091AAE0E21957D9700DFF024 /* iOSXLSReader.m */,
+			);
+			path = iOSlibxls;
+			sourceTree = "<group>";
+		};
+		091AAE0C21957D9700DFF024 /* libxls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		091AAE0F21957D9700DFF024 /* QuickExcelKit */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE1021957D9700DFF024 /* QuickExcelReaderUtil.h */,
+				091AAE1621957D9700DFF024 /* QuickExcelReaderUtil.m */,
+				091AAE1121957D9700DFF024 /* QuickExcelKit.h */,
+				091AAE1221957D9700DFF024 /* CSVParser */,
+				091AAE1521957D9700DFF024 /* QuickExcelKitDefine.h */,
+				091AAE1721957D9700DFF024 /* Supporting Files */,
+			);
+			path = QuickExcelKit;
+			sourceTree = "<group>";
+		};
+		091AAE1221957D9700DFF024 /* CSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE1321957D9700DFF024 /* CSVParser.h */,
+				091AAE1421957D9700DFF024 /* CSVParser.m */,
+			);
+			path = CSVParser;
+			sourceTree = "<group>";
+		};
+		091AAE1721957D9700DFF024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE1821957D9700DFF024 /* QuickExcelKit-Prefix.pch */,
+				091AAE1921957D9700DFF024 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091AAE4221957F9300DFF024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091AAE4521957F9900DFF024 /* libz.tbd */,
+				091AAE4321957F9300DFF024 /* libiconv.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091AAD9421957D7800DFF024 /* ExcelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091AADAB21957D7C00DFF024 /* Build configuration list for PBXNativeTarget "ExcelTest" */;
+			buildPhases = (
+				091AAD9121957D7800DFF024 /* Sources */,
+				091AAD9221957D7800DFF024 /* Frameworks */,
+				091AAD9321957D7800DFF024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelTest;
+			productName = ExcelTest;
+			productReference = 091AAD9521957D7800DFF024 /* ExcelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091AAD8D21957D7800DFF024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "deng-HaiDi";
+				TargetAttributes = {
+					091AAD9421957D7800DFF024 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 091AAD9021957D7800DFF024 /* Build configuration list for PBXProject "ExcelTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091AAD8C21957D7800DFF024;
+			productRefGroup = 091AAD9621957D7800DFF024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091AAD9421957D7800DFF024 /* ExcelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091AAD9321957D7800DFF024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091AAE4121957E1500DFF024 /* 1.xlsx in Resources */,
+				091AAE3F21957D9700DFF024 /* Info.plist in Resources */,
+				091AAE5221959CE400DFF024 /* ub.plist in Resources */,
+				091AADA521957D7C00DFF024 /* LaunchScreen.storyboard in Resources */,
+				091AADA221957D7C00DFF024 /* Assets.xcassets in Resources */,
+				091AAE50219599B200DFF024 /* Sheet1.txt in Resources */,
+				091AADA021957D7800DFF024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091AAD9121957D7800DFF024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091AAE2B21957D9700DFF024 /* ZBaseParser.m in Sources */,
+				091AAE2021957D9700DFF024 /* ole.c in Sources */,
+				091AAE1B21957D9700DFF024 /* XlsReader.cpp in Sources */,
+				091AAE2C21957D9700DFF024 /* ZContentParser.m in Sources */,
+				091AAE3621957D9700DFF024 /* sha1.c in Sources */,
+				091AAD9D21957D7800DFF024 /* ViewController.m in Sources */,
+				091AAE1F21957D9700DFF024 /* xlstool.c in Sources */,
+				091AAE2221957D9700DFF024 /* getopt.c in Sources */,
+				091AAE3321957D9700DFF024 /* hmac.c in Sources */,
+				091AAE3221957D9700DFF024 /* aeskey.c in Sources */,
+				091AAE3D21957D9700DFF024 /* CSVParser.m in Sources */,
+				091AAE2521957D9700DFF024 /* ZSheetParser.m in Sources */,
+				091AAE2421957D9700DFF024 /* ZXLSXParsers注解.m in Sources */,
+				091AAE2E21957D9700DFF024 /* zip.c in Sources */,
+				091AAE1C21957D9700DFF024 /* DHxlsReaderIOS.m in Sources */,
+				091AAE3121957D9700DFF024 /* SSZipArchive.m in Sources */,
+				091AAE3E21957D9700DFF024 /* QuickExcelReaderUtil.m in Sources */,
+				091AAE3B21957D9700DFF024 /* iOSXLSCell.m in Sources */,
+				091AAE1D21957D9700DFF024 /* DHcell.m in Sources */,
+				091AAE3921957D9700DFF024 /* aestab.c in Sources */,
+				091AAE3021957D9700DFF024 /* mztools.c in Sources */,
+				091AADA821957D7C00DFF024 /* main.m in Sources */,
+				091AAE3C21957D9700DFF024 /* iOSXLSReader.m in Sources */,
+				091AAE1E21957D9700DFF024 /* xls.c in Sources */,
+				091AAE2921957D9700DFF024 /* ZContent.m in Sources */,
+				091AAE3821957D9700DFF024 /* pwd2key.c in Sources */,
+				091AAE2821957D9700DFF024 /* ZSheetCol.m in Sources */,
+				091AAE3A21957D9700DFF024 /* entropy.c in Sources */,
+				091AAE3721957D9700DFF024 /* prng.c in Sources */,
+				091AAE1A21957D9700DFF024 /* main11.cpp in Sources */,
+				091AAD9A21957D7800DFF024 /* AppDelegate.m in Sources */,
+				091AAE2721957D9700DFF024 /* ZSheet.m in Sources */,
+				091AAE3521957D9700DFF024 /* fileenc.c in Sources */,
+				091AAE2121957D9700DFF024 /* xls2csv.c in Sources */,
+				091AAE2A21957D9700DFF024 /* ZWorkbookParser.m in Sources */,
+				091AAE2621957D9700DFF024 /* ZXLSXParser.m in Sources */,
+				091AAE2D21957D9700DFF024 /* unzip.c in Sources */,
+				091AAE2321957D9700DFF024 /* LAWExcelTool.m in Sources */,
+				091AAE3421957D9700DFF024 /* aescrypt.c in Sources */,
+				091AAE2F21957D9700DFF024 /* ioapi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		091AAD9E21957D7800DFF024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091AAD9F21957D7800DFF024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091AADA321957D7C00DFF024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091AADA421957D7C00DFF024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091AADA921957D7C00DFF024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		091AADAA21957D7C00DFF024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091AADAC21957D7C00DFF024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA48LH9S6C;
+				INFOPLIST_FILE = ExcelTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.uk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		091AADAD21957D7C00DFF024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA48LH9S6C;
+				INFOPLIST_FILE = ExcelTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.uk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091AAD9021957D7800DFF024 /* Build configuration list for PBXProject "ExcelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091AADA921957D7C00DFF024 /* Debug */,
+				091AADAA21957D7C00DFF024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091AADAB21957D7C00DFF024 /* Build configuration list for PBXNativeTarget "ExcelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091AADAC21957D7C00DFF024 /* Debug */,
+				091AADAD21957D7C00DFF024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091AAD8D21957D7800DFF024 /* Project object */;
+}
